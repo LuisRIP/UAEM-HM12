@@ -1,0 +1,198 @@
+Container(
+    width: 355,
+    height: 786,
+    clipBehavior: Clip.antiAlias,
+    decoration: BoxDecoration(
+        gradient: LinearGradient(
+            begin: Alignment(0.00, -1.00),
+            end: Alignment(0, 1),
+            colors: [Color(0xFF36BC7F), Color(0xD0344F43), Color(0xBD13422C), Color(0xD01C6444), Color(0xAA091F15), Color(0xCE071911), Colors.black.withOpacity(0.12999999523162842)],
+        ),
+    ),
+    child: Column(
+        mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+            Expanded(
+                child: Container(
+                    width: double.infinity,
+                    clipBehavior: Clip.antiAlias,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: NetworkImage("https://via.placeholder.com/355x786"),
+                            fit: BoxFit.none,
+                        ),
+                    ),
+                    child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                            Container(
+                                width: 370,
+                                height: 786,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: BoxDecoration(),
+                                child: Stack(
+                                    children: [
+                                        Positioned(
+                                            left: -0.50,
+                                            top: 287,
+                                            child: Container(
+                                                width: 355,
+                                                height: 408,
+                                                padding: const EdgeInsets.only(top: 300, bottom: 20),
+                                                child: Column(
+                                                    mainAxisSize: MainAxisSize.min,
+                                                    mainAxisAlignment: MainAxisAlignment.start,
+                                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                                    children: [
+                                                        Container(
+                                                            width: double.infinity,
+                                                            height: 64,
+                                                            decoration: ShapeDecoration(
+                                                                color: Color(0xFFF4EFBF),
+                                                                shape: RoundedRectangleBorder(
+                                                                    borderRadius: BorderRadius.circular(53),
+                                                                ),
+                                                            ),
+                                                            child: Column(
+                                                                mainAxisSize: MainAxisSize.min,
+                                                                mainAxisAlignment: MainAxisAlignment.center,
+                                                                crossAxisAlignment: CrossAxisAlignment.center,
+                                                                children: [
+                                                                    SizedBox(
+                                                                        width: 295,
+                                                                        child: Text(
+                                                                            '¿En que te puedo ayudar?',
+                                                                            textAlign: TextAlign.center,
+                                                                            style: TextStyle(
+                                                                                color: Colors.black,
+                                                                                fontSize: 24,
+                                                                                fontFamily: 'Inter',
+                                                                                fontWeight: FontWeight.w400,
+                                                                                height: 0,
+                                                                            ),
+                                                                        ),
+                                                                    ),
+                                                                ],
+                                                            ),
+                                                        ),
+                                                    ],
+                                                ),
+                                            ),
+                                        ),
+                                        Positioned(
+                                            left: -0.50,
+                                            top: 0,
+                                            child: Container(
+                                                width: 355,
+                                                height: 786,
+                                                clipBehavior: Clip.antiAlias,
+                                                decoration: BoxDecoration(
+                                                    image: DecorationImage(
+                                                        image: NetworkImage("https://via.placeholder.com/355x786"),
+                                                        fit: BoxFit.fill,
+                                                    ),
+                                                ),
+                                                child: Stack(
+                                                    children: [
+                                                        Positioned(
+                                                            left: 0,
+                                                            top: 715,
+                                                            child: Container(
+                                                                width: 355,
+                                                                height: 71,
+                                                                clipBehavior: Clip.antiAlias,
+                                                                decoration: BoxDecoration(),
+                                                                child: Stack(
+                                                                    children: [
+                                                                        Positioned(
+                                                                            left: 7,
+                                                                            top: 5,
+                                                                            child: Container(
+                                                                                width: 50,
+                                                                                height: 60,
+                                                                                decoration: BoxDecoration(
+                                                                                    image: DecorationImage(
+                                                                                        image: NetworkImage("https://via.placeholder.com/50x60"),
+                                                                                        fit: BoxFit.fill,
+                                                                                    ),
+                                                                                ),
+                                                                            ),
+                                                                        ),
+                                                                        Positioned(
+                                                                            left: 304,
+                                                                            top: 5,
+                                                                            child: Container(
+                                                                                width: 51,
+                                                                                height: 60,
+                                                                                decoration: BoxDecoration(
+                                                                                    image: DecorationImage(
+                                                                                        image: NetworkImage("https://via.placeholder.com/51x60"),
+                                                                                        fit: BoxFit.fill,
+                                                                                    ),
+                                                                                ),
+                                                                            ),
+                                                                        ),
+                                                                        Positioned(
+                                                                            left: 237,
+                                                                            top: 5,
+                                                                            child: Container(
+                                                                                width: 55,
+                                                                                height: 60,
+                                                                                decoration: BoxDecoration(
+                                                                                    image: DecorationImage(
+                                                                                        image: NetworkImage("https://via.placeholder.com/55x60"),
+                                                                                        fit: BoxFit.fill,
+                                                                                    ),
+                                                                                ),
+                                                                            ),
+                                                                        ),
+                                                                        Positioned(
+                                                                            left: 74,
+                                                                            top: 5,
+                                                                            child: Container(
+                                                                                width: 45,
+                                                                                height: 60,
+                                                                                decoration: BoxDecoration(
+                                                                                    image: DecorationImage(
+                                                                                        image: NetworkImage("https://via.placeholder.com/45x60"),
+                                                                                        fit: BoxFit.fill,
+                                                                                    ),
+                                                                                ),
+                                                                            ),
+                                                                        ),
+                                                                    ],
+                                                                ),
+                                                            ),
+                                                        ),
+                                                        Positioned(
+                                                            left: 152,
+                                                            top: 699,
+                                                            child: Container(
+                                                                width: 51,
+                                                                height: 33,
+                                                                decoration: BoxDecoration(
+                                                                    image: DecorationImage(
+                                                                        image: NetworkImage("https://via.placeholder.com/51x33"),
+                                                                        fit: BoxFit.fill,
+                                                                    ),
+                                                                ),
+                                                            ),
+                                                        ),
+                                                    ],
+                                                ),
+                                            ),
+                                        ),
+                                    ],
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+            ),
+        ],
+    ),
+)
